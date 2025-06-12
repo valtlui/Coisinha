@@ -14,14 +14,13 @@ body {
   justify-content: center;
   font-family: 'Great Vibes', cursive;
   display: flex;
-  min-height: 100vh;
-  padding: 1rem;
-  margin-top: 50px;
   flex-direction: column;
   align-items: center;
-  position: relative;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
   z-index: 1;
-  font-size: 3em;
   text-align: center;
 }
 
@@ -30,4 +29,4 @@ canvas {
   top: 0;
   left: 0;
   z-index: 0;
-}
+  }
